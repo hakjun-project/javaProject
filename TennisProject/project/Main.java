@@ -16,7 +16,7 @@ public class Main {
 
 	static Scanner scanner = new Scanner(System.in);
 	static TennisCounter count = null;
-	static final int NUM = 11;
+	static final int NUM = 9;
 	static int gameNum=1;
 	
 	public static void main(String[] args) {
@@ -28,7 +28,6 @@ public class Main {
 			case 1:
 				set();
 				game();
-				//games.add(count);
 				makeFile();
 				winnerTeam();
 				break;
@@ -60,7 +59,6 @@ public class Main {
 			count.whosWinner();
 			print();
 			count.dispScoreBoard();
-			
 			
 			System.out.println("\t".repeat(NUM)+"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
 			System.out.println("\t".repeat(NUM)+"┃       엔터를 누르세요.     ┃");
@@ -98,17 +96,17 @@ public class Main {
 	
 	public static void print() {
 		System.out.println("\n".repeat(3));
-		System.out.println("\t".repeat(7)+"TTTTTTTTTTTTTT    EEEEEEEEEEEE    NN        NN    NN        NN    IIIIIIII      SSSSS	");
-		System.out.println("\t".repeat(7)+"TTTTTTTTTTTTTT    EEEEEEEEEEEE    NNN       NN    NNN       NN    IIIIIIII     SS   SS	");
-		System.out.println("\t".repeat(7)+"      TT          EE              NNNN      NN    NNNN      NN       II       SS     SS	");
-		System.out.println("\t".repeat(7)+"      TT          EE              NN NN     NN    NN NN     NN       II        SS		");
-		System.out.println("\t".repeat(7)+"      TT          EEEEEEEEEEEE    NN  NN    NN    NN  NN    NN       II          SS		");
-		System.out.println("\t".repeat(7)+"      TT          EEEEEEEEEEEE    NN   NN   NN    NN   NN   NN       II            SS	");
-		System.out.println("\t".repeat(7)+"      TT          EE              NN    NN  NN    NN    NN  NN       II             SS	");
-		System.out.println("\t".repeat(7)+"      TT          EE              NN     NN NN    NN     NN NN       II              SS	");
-		System.out.println("\t".repeat(7)+"      TT          EE              NN      NNNN    NN      NNNN       II       SS      SS	");
-		System.out.println("\t".repeat(7)+"      TT          EEEEEEEEEEEE    NN       NNN    NN       NNN    IIIIIIII     SS    SS	");
-		System.out.println("\t".repeat(7)+"      TT          EEEEEEEEEEEE    NN        NN    NN        NN    IIIIIIII      SSSSS	");
+		System.out.println("\t".repeat(5)+"TTTTTTTTTTTTTT    EEEEEEEEEEEE    NN        NN    NN        NN    IIIIIIII      SSSSS	");
+		System.out.println("\t".repeat(5)+"TTTTTTTTTTTTTT    EEEEEEEEEEEE    NNN       NN    NNN       NN    IIIIIIII     SS   SS	");
+		System.out.println("\t".repeat(5)+"      TT          EE              NNNN      NN    NNNN      NN       II       SS     SS	");
+		System.out.println("\t".repeat(5)+"      TT          EE              NN NN     NN    NN NN     NN       II        SS		");
+		System.out.println("\t".repeat(5)+"      TT          EEEEEEEEEEEE    NN  NN    NN    NN  NN    NN       II          SS		");
+		System.out.println("\t".repeat(5)+"      TT          EEEEEEEEEEEE    NN   NN   NN    NN   NN   NN       II            SS	");
+		System.out.println("\t".repeat(5)+"      TT          EE              NN    NN  NN    NN    NN  NN       II             SS	");
+		System.out.println("\t".repeat(5)+"      TT          EE              NN     NN NN    NN     NN NN       II              SS	");
+		System.out.println("\t".repeat(5)+"      TT          EE              NN      NNNN    NN      NNNN       II       SS      SS	");
+		System.out.println("\t".repeat(5)+"      TT          EEEEEEEEEEEE    NN       NNN    NN       NNN    IIIIIIII     SS    SS	");
+		System.out.println("\t".repeat(5)+"      TT          EEEEEEEEEEEE    NN        NN    NN        NN    IIIIIIII      SSSSS	");
 		System.out.println("\n".repeat(2));
 		try{count.setting.print();} catch(Exception e) {};
 	}
@@ -212,8 +210,6 @@ public class Main {
 				br.write("\t┃    BBBBBBBBBBBBBBBBBBB       ┃\n");
 			}
 			br.write("\t┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
-			
-			
 			
 		} catch (Exception e) {
 			e.printStackTrace();

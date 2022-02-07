@@ -1,0 +1,22 @@
+		20220207(월)
+┏━━━━━┳━━━━ 선수이름 ━━━━━━━━━━━┓
+  A팀 ┃ 홍길동  
+  B팀 ┃ 김길동  
+┗━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━┛
+	┏━━━━━━ Winner ━━━━━━┓
+	   1세트 2세트 3세트 
+	     A     B     B   
+	┗━━━━━━━━━━━━━━━━━━━━┛
+	┏━━━━━━━━━━━ 승리팀 ━━━━━━━━━━━┓
+	┃    BBBBBBBBBBBBBBBBBB        ┃
+	┃    BBBBBBBBBBBBBBBBBBB       ┃
+	┃    BB                BB      ┃
+	┃    BB               BB       ┃
+	┃    BBBBBBBBBBBBBBBBBB        ┃
+	┃    BBBBBBBBBBBBBBBBBB        ┃
+	┃    BB              BB        ┃
+	┃    BB                BB      ┃
+	┃    BB                 BB     ┃
+	┃    BBBBBBBBBBBBBBBBBBBB      ┃
+	┃    BBBBBBBBBBBBBBBBBBB       ┃
+	┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
